@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: beige;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+h1 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.box {
+    background-color: lightgray;
+    border: 2px solid black; 
+    padding-top: 0;
+    margin: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p.content {
+    clear: right;
+    padding-left: 15px;
+    font-weight: 700;
+    padding-right: 15px;
+}
+
+#label1 {
+    background-color: salmon;
+    color: black;
+    width: 180px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 150%;
+    border: 2px solid black;
+    border-top: 0;
+    border-right: 0;
+    margin-top: 0;
+    float: right;
+    margin-bottom: 10px;
+
+}
+
+#label2 {
+    background-color: darkred;
+    color: white;
+    width: 180px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 150%;
+    border: 2px solid black;
+    margin-top: 0;
+    float: right;
+    border-top: 0;
+    border-right: 0;
+    margin-bottom: 10px;
+
+}
+
+
+#label3 {
+    background-color: sandybrown;
+    color: black;
+    width: 180px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 150%;
+    border: 2px solid black;
+    margin-top: 0;
+    float: right;
+    border-top: 0;
+    border-right: 0;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 992px) {
+   
+    .box{
+        /*due to margins, used this percentage.*/
+        width: 30%;
+        float: left;
+        
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .box{
+        /*due to margins, used this percentage.*/
+        width: 47.397%;
+        float: left;
+        
+    }
+   
+    #box3 {
+        width: 97.2%;
+        margin-top: 0;
+    }
+}
